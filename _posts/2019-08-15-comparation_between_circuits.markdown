@@ -42,7 +42,24 @@ Follow the [LibOTe][LibOTe Link], and to compatiate with ABY and libOTE,then I n
 
 but when ENABLE_SIMPLESTOT is switched on, I encountered "SimplestOT/fe25519_nsquare.s:503:1: error: 32-bit absolute addressing is not supported in 64-bit mode" issue, this being too techincal for me to solve. So I have to go back to test the other base OT protocols.
 
-### Explore IKNP OT 
+### Explore IKNP OT(Not base OT)
+
+This seems to be an extention of OT, it could convert a large scale of OTs to a smaller OTs, 
+
+Related work & Basic idea & Refined idea & Security proof 
+
+
+What's the essece of code implementation of secure computation? 
+	The author's knowledge of every protocol and a few programming skill and engineering technique.
+
+	What kind of usage does it have? Two news,bad or good news every time,Use OT transfer to fetch message
+
+And how do we learn them?
+
+### Explore Naor-Pinkas OT(Not base OT)
+Improved efficiency of applications
+Provided that first two round of OT doesn't rely on random oracle model
+
 
 ## Efficiency comparaion of the aforementioned OTS <fill sender and receiver with long bitlen>
 
