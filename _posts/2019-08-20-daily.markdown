@@ -1,0 +1,11 @@
+---
+layout: post
+title: daily
+date: 2019-08-20 19:14:30 +0800
+categories: jekyll update
+---
+
+## Today's accomplishment on my research
+* Go forward to an easier paper,Phasing: permutation hashing using OT
+* Very blured understanding about IKNP OT
+*

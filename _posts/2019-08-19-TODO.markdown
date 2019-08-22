@@ -1,0 +1,45 @@
+---
+layout: post
+title: TODO
+date: 2019-08-19 22:44:24 +0800
+categories: jekyll update
+---
+
+<head> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+## Idea Incubator
+* Main issues about secure computing are it's high communicating overloads, how to decrease this in general?
+
+
+## TODO
+
+* Find the external disk and backup all the photos <i class="fas fa-check" style="color:#30fc03"></i>
+
+* Photos data cleansing: remove all the aae data，check if there exists duplicate photo <i class="fas fa-check" style="color:#30fc03"></i>
+
+* Acts subtitle translating job  <i class="fas fa-check" style="color:#30fc03"></i>
+
+* Yoyo's emoji lists... <i class="fas fa-times" style="color:#c7254e"></i>
+
+* Find markdown check, wrong icon <i class="fas fa-check" style="color:#30fc03"></i>
+	* fontawesome
+	* google rgb color panel
+
+* Pdf contents searching technique
+
+* Thoroughly knowledge about using wildcards
+	* Star wildcard(\*): arbitrary character with arbitrary length
+	* question wildcard(?): one single arbitrary character
+	* a pair of square brackets([a-f],[xyz]): represents a range or one of them
+
+* Explore ZeroNet crypto technique
+
+* Thorougly get to know markdown tutorial <i class="fas fa-check" style="color:#30fc03"></i>
+
+* The password management project
+
+* Begin to write techinical blogs for future papaer publication

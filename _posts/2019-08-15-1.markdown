@@ -1,22 +1,36 @@
 ---
 layout: post
-title:  "Comparation between circuits"
-<!-- date:   2019-08-15 12:38:34 +0800 -->
+title:  "OT & PSI"
+date:   2019-08-15 12:38:34 +0800
 categories: jekyll update
 ---
 
+# Engineering part of libOTe
+To make vs code works for detecting including path in c/c++ extension gui, set
+	"includePath": [
+	                "/usr/include",
+	                "/usr/local/include",
+	                "${env:PYTHON_LIB_TENSORFLOW}/include/",
+	                "${env:PYTHON_LIB_TENSORFLOW}/include/external/nsync/public",
+	                "${workspaceRoot}"
+	            
+	 }
 
 Trying to figure out difference between Arithmetic & Bool & Yao of [ABY Framwork][ABY Link].
 
 
 ## Paper lists  regarding engineering of MPC
-	* Secure Two-Party Computation is Practical
 	* ABY – A Framework for Efficient Mixed-Protocol Secure Two-Party Computation_( From the paper [DSZ15][DSZ15 link])
 	* **Thomas Schneider** famous doctoral paper: Engineering Secure Two-Party Computation Protocols
-Advances in Design, Optimization, and Applications of .
-	* The Simplest Protocol for Oblivious Transfer
-	* IKNP protocl: Extending Oblivious Transfers Efficiently
-Then proceed to understand the basic primitives from OT.
+
+Paper Names | Amateur review  | Valuable parts  | unknown or what being too hard
+--------------|:-----:|-----:| ----
+Secure Two-Party Computation is Practical | The author improve secure computation under malicious adversary. Feasible AES computation under malicious adversary. A protocol with security under covert adversary |   |    
+Engineering Secure Two-Party Computation Protocols |  |  -- |   
+Efficient Oblivious Transfer Protocols(Naor Pinkas OT)  | using C/PK_0 technique and random oracle, successfully constructing a efficient OT(1,N) | one by one improvement in protocols| implementing distance from reality  
+OT: The Simplest Protocol for Oblivious Transfer| | | 
+IKNP protocl: Extending Oblivious Transfers Efficiently| | | 
+
 
 ## Definition of OT
 Oblivious Transfer (OT) is a cryptographic primitive defined as follows: in its simplest flavour, 1-out-of-2 OT, a sender has two input messages M0 and M1 and a receiver has a choice bit c. At the end of the protocol the receiver is supposed to learn the message Mc and nothing else, while the sender is supposed to learn nothing.
@@ -56,9 +70,18 @@ What's the essece of code implementation of secure computation?
 
 And how do we learn them?
 
-### Explore Naor-Pinkas OT(Not base OT)
+### Explore Naor-Pinkas OT(Not base OT)![naorpinkas](/assets/noar_pinkas_0.png)
 Improved efficiency of applications
 Provided that first two round of OT doesn't rely on random oracle model
+
+processing engineering issues:
+	when compile my own pure project, found that ecc lib is not enabled,
+	so begin to rely on miracl library firstly,but unsuccessful, 
+	then forward to rely on relics library, firstly relic is compiled, then in cmakelists command it to rely on the built library.
+	Then go forward to install into system path, and things worked alright.
+	New errors when making a pure target, meeting with various errors,so finally abort this task.
+
+	Finally under the old framework, combing cryptotools and librelic constructed this ot transfer successfully, but got probability running with some errors.
 
 
 ## Efficiency comparaion of the aforementioned OTS <fill sender and receiver with long bitlen>

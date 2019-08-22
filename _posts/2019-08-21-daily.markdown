@@ -1,0 +1,113 @@
+---
+layout: post
+title: daily
+date: 2019-08-21 14:37:05 +0800
+categories: jekyll update
+---
+
+----
+
+<!-- ## On this page -->
+<!-- {:.no_toc} -->
+
+- TOC
+{:toc}
+
+----
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+Thi is paragraph
+also a paragraph,even in a second line
+
+## Concepts
+* Bloom filter:
+	memebership checker using two hash functions
+
+* Cuckoo functions:
+	using two functions to do hashing and storage key corresponding values
+
+* Hamming weight:
+	the occurence of 1 in a binary string, as the same as hamming **distance** from equal length 0's. 
+
+* kramdown:
+	Is just a fast, pure-ruby markdown-superset converter
+
+## Hashing compare
+In python,murmurhash is about 3 times faster than md5
+
+## Some simple kramdown tutorials
+
+* Making a code block with specifed language type
+	~~~ ruby
+	def what?
+	  ruby
+	end
+	~~~
+	~~~ python
+	def md5():
+	  print("this is python")
+	end
+	~~~
+* Setting attributes of some content
+
+	This is *red*{: style="color: red"}.
+
+	This is <span style="color: purple">written in purple</span>.
+
+* Abbreviations & footnotes & comments
+	This is an HTML example.
+
+	This is a text with a footnote[^1].
+	<!-- { commenting here} -->
+
+* Including latex
+	
+	**Before using latex, you must add below html codes**
+	~~~ html
+	<script type="text/javascript" async
+	  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	~~~
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+
+* Inserting a video
+
+<!-- <figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure> -->
+
+* To use toc,just do things like this
+
+	```
+	 - TOC
+	 {:toc}
+	```
+
+* To  quote ,like this
+
+> Give whoever gives
+>
+> Grab whoever grabs
+
+
+[^1]: And here is the definition.
+
+*[HTML]: Hyper Text Markup Language

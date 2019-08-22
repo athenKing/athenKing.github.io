@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "daily"
+date: 2019-08-19 18:34:13 +0800
+categories: jekyll update
+---
+
+## Reviewing the codes of naor-pinkas ot, but just realizing it to be invaluable because:
+* bad codes style
+* latent bugs
+* not really helpful to comprehend this protocol
+
+## Then I go to PSI review, intended to compare the latest protocol with the low-quality paper on Rational numbers PSI
+* work is still going on...
