@@ -42,4 +42,10 @@ categories: jekyll update
 
 * The password management project
 
-* Begin to write techinical blogs for future papaer publication
+* Begin to write techinical blogs for future paper publication <i class="fas fa-check" style="color:#30fc03"></i>
+
+* This Latex symbol convertion in my own blog [math_latex] [math_latex link]
+
+* Find an ocr tool running on mac
+
+[math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols

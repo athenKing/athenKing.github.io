@@ -11,6 +11,11 @@ categories: jekyll update
 
 ## PSI(private set intersection) problem and it's solution
 
+Most of the content are from these 3 papers:
+* [PSZ14] Faster private set intersection based on OT extension[^PSZ14].
+* [PSSZ15]Phasing: Private Set Intersection using Permutation-based Hashing[^2]
+* Efficient Batched Oblivious PRF with Applications to Private Set Intersection[^3]
+
 ### Motivation from real life
 
 >**Private set intersection (PSI) refers to the setting where two parties each hold sets of items and wish to learn nothing more than the intersection of these sets**. Today, PSI is a truly practical primitive, with extremely fast cryptographically secure implementations [PSSZ15]. Incredibly, these implementations are only a relatively small factor slower than than the naive and insecure method of exchanging hashed values. Among the problems of secure computation, PSI is probably the one most strongly motivated by practice.
@@ -23,6 +28,16 @@ categories: jekyll update
 >
 >Indeed, already today companies such as Facebook routinely share and mine shared information [Ops13, Yun15]. In 2012, (at least some of) this sharing was performed with insecure naive hashing. Today, companies are able and willing to tolerate a reasonable performance penalty, with the goal of achieving stronger security [Yun15]. We believe that the ubiquity and the scale of private data sharing, and PSI in particular, will continue to grow as big data becomes bigger and privacy becomes a more recognized issue.
 
+### Preliminaries
+
+#### The Basic PEQT(private equality test) Protocol
+ Assume two Party $$P_1$$ with $$X$$ ,$$P_2$$ with $$Y$$, their message length is $$l$$.TODO
+
+
+#### The Basic Private Set Inclusion Protocol
+ Parallel invocation of the above PEQT Protocol.
+
+
 ### Related work
 
 We classificate existing PSI protocols into categories as below.
@@ -30,4 +45,27 @@ We classificate existing PSI protocols into categories as below.
 #### (Insecure) Naive Hashing
 
 Naive hashing is an *insecure* solution for PSI even most commonly used, except for rare cases.In the protocol,$$P_2$$ samples a random $$2k$$-bit salt $$k$$ and sends it to $$P_1$$. Both parties then use a cryptographic hash function $$H:\{0,1\}^* \rightarrow \{0,1\}^l$$ to hash their elements salted with k.Namely,$$P_1$$ computes $$h_i = H(x_i \oplus k)$$ for each element $$x_i$$.Similarly,$$P_2$$ does the same,$$P_1$$ then randomly computes the hash values $$h_i$$ and sends them to $$P_2$$, which computes the intersection as the elements for which there exists a j such that $$h_i=h_j^,$$.
+
+<span style="color: red">Security:</span> Because both parties share the same salt k, then $$P_2$$ could bruce attack the protocol by simply computing $$ \forall x \in X, 1 \leq i \leq n_1 H(x \oplus k) \stackrel{?}{=} h_i$$. Thus for some domain, it's insecure. And this attack is relevant for many settings, say, where the inputs are ip addresses, credit card numbers,names, social security numbers, etc. Also *forward-security is not guaranteed*{: style="color:red"}, since an attacker can compute wheter a specific element was part of the other party's set if the attacker learns the element after the protocol execution.
+
+#### Server-aided PSI
+
+#### Public-key Cryptography bashed PSI
+
+#### PSI based on Generic Protocols
+
+#### OT-based PSI
+
+#### *Batched Oblivious PRF based PSI Combining Cuckcoo hash functions*{: style="color:red"}
+
+* In general overview
+	OPRF + Cuckoo Hashing
+
+[^PSZ14]:Benny Pinkas, Thomas Schneider, and Michael Zohner. Faster private set intersection based on OT extension. In Kevin Fu and Jaeyeon Jung, editors, 23rd USENIX Security Symposium, USENIX Security 14, pages 797–812. USENIX Association, 2014
+
+[^2]:Pinkas, Benny, et al. "Phasing: Private set intersection using permutation-based hashing." 24th {USENIX} Security Symposium ({USENIX} Security 15). 2015.
+
+[^3]:Kolesnikov, Vladimir, et al. "Efficient batched oblivious PRF with applications to private set intersection." Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. ACM, 2016
+ 
+
 
