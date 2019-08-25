@@ -29,7 +29,13 @@ categories: jekyll update
 	* fontawesome
 	* google rgb color panel
 
-* Pdf contents searching technique
+* Begin to write techinical blogs for future paper publication <i class="fas fa-check" style="color:#30fc03"></i>
+
+* Thorougly get to know markdown tutorial <i class="fas fa-check" style="color:#30fc03"></i>
+
+* Pdf contents searching technique **PDF Viewer Studio 2019 on my Mac**<i class="fas fa-check" style="color:#30fc03"></i>
+
+* Find an ocr tool running on mac [OCR link]<i class="fas fa-check" style="color:#30fc03"></i>
 
 * Thoroughly knowledge about using wildcards
 	* Star wildcard(\*): arbitrary character with arbitrary length
@@ -38,14 +44,19 @@ categories: jekyll update
 
 * Explore ZeroNet crypto technique
 
-* Thorougly get to know markdown tutorial <i class="fas fa-check" style="color:#30fc03"></i>
-
 * The password management project
 
-* Begin to write techinical blogs for future paper publication <i class="fas fa-check" style="color:#30fc03"></i>
+* This Latex symbol convertion in my own blog [math_latex] [math_latex link]<i class="fas fa-check" style="color:#30fc03"></i>
 
-* This Latex symbol convertion in my own blog [math_latex] [math_latex link]
+* Why not check writting poems? TODO
 
-* Find an ocr tool running on mac
+* Test how to use my ipv6, and get to know all the theories about that TODO
+
+* How to speed up resource sharing? TODO
+
+* Use scripts to test different proxy server connection status? TODO
 
 [math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+
+[OCR link]: https://www.onlineocr.net/
+

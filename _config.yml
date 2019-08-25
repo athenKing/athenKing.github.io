@@ -25,6 +25,7 @@ github_username:  athenKing
 # Build settings
 markdown: kramdown
 theme: minima
+# theme: jekyll-theme-console  this is very bad style to use
 plugins:
   - jekyll-feed
 
