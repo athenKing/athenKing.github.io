@@ -2,7 +2,7 @@
 layout: post
 title: TODO
 date: 2019-08-19 22:44:24 +0800
-categories: jekyll update
+categories: tech
 ---
 
 <head> 
@@ -11,9 +11,28 @@ categories: jekyll update
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 ## Idea Incubator
 * Main issues about secure computing are it's high communicating overloads, how to decrease this in general?
 
+* Authorized PSI techinique? **Each element in the client set must be authorized for sharing by some recoginzed**
+
+* Privacy computation on sets? Like 
+	* set union computation
+	* set intersection computation, as the same as $$A\B$$ computation **This is very much different with intersection**
+
+* Multiparty computation on PSI
+
+* Feasible attacking method on current PSI problem
+
+* Privately computing set operations
+	* Privately computing set union cardinality
+	* Privately computing set intersection cardinality combing with general two number add using simple homomorphic encryption
+		* <span style="color: red">Using OPRF protocl and bloom filter, then firstly get a permuation of $$BF_A$$, then bitwise OR of $$BF_B \: and \: BF_A$$,finally get set union cardinality.</span>
+	* Using bloom filter and 
 
 ## TODO
 
@@ -55,6 +74,10 @@ categories: jekyll update
 * How to speed up resource sharing? TODO
 
 * Use scripts to test different proxy server connection status? TODO
+
+* How to cancel the sublime pop-up window?TODO
+
+* How to category those posts? maybe not necessary in original design...
 
 [math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 

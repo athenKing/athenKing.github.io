@@ -2,7 +2,7 @@
 layout: post
 title: 823查经
 date: 2019-08-23 11:20:01 +0800
-categories: jekyll update
+categories: spiritual
 ---
 
 ## 以弗所书第六章十节至廿四节小组讨论问题P1

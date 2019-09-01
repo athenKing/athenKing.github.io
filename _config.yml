@@ -17,8 +17,10 @@ title: A Missing Cryptomania
 email: fight.or.fighter@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal academic experience
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: jekyllrb
 github_username:  athenKing
 
@@ -28,6 +30,9 @@ theme: minima
 # theme: jekyll-theme-console  this is very bad style to use
 plugins:
   - jekyll-feed
+
+# collections:
+  # - spiritual
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

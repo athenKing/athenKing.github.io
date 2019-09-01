@@ -2,7 +2,7 @@
 layout: post
 title: daily
 date: 2019-08-21 14:37:05 +0800
-categories: jekyll update
+categories: academic
 ---
 
 ----

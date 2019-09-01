@@ -2,7 +2,7 @@
 layout: post
 title: what-have-I-learned-as-a-cryptomania-so-far?
 date: 2019-08-19 18:46:09 +0800
-categories: jekyll update
+categories: academic
 ---
 
 * Garbled circuits

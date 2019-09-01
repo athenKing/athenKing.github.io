@@ -2,7 +2,7 @@
 layout: post
 title:  "common commands of git"
 <!-- date:  -->
-categories: jekyll update
+categories: tech
 ---
 
 # what to do when you create an empty directory?

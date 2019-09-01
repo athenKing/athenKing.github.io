@@ -2,7 +2,7 @@
 layout: post
 title:  "Installation recording of ABY"
 <!-- date:  -->
-categories: jekyll update
+categories: tech
 ---
 
 brew install openssl

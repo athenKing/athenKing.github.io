@@ -2,7 +2,7 @@
 layout: post
 title:  "OT & PSI"
 date:   2019-08-15 12:38:34 +0800
-categories: jekyll update
+categories: academic
 ---
 
 # Engineering part of libOTe

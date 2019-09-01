@@ -2,7 +2,7 @@
 layout: post
 title: juvenile_exp
 date: 2019-08-25 22:27:27 +0800
-categories: jekyll update
+categories: spiritual
 ---
 
 ## 事工开展的一些前期必要工作
