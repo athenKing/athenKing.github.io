@@ -56,6 +56,8 @@ categories: tech
 
 * Find an ocr tool running on mac [OCR link]<i class="fas fa-check" style="color:#30fc03"></i>
 
+* How to category those posts? maybe not necessary in original design...<i class="fas fa-check" style="color:#30fc03"></i>
+
 * Thoroughly knowledge about using wildcards
 	* Star wildcard(\*): arbitrary character with arbitrary length
 	* question wildcard(?): one single arbitrary character
@@ -77,7 +79,13 @@ categories: tech
 
 * How to cancel the sublime pop-up window?TODO
 
-* How to category those posts? maybe not necessary in original design...
+* What to do on school bus?
+	* Reading Native English novels to help GRE or TOFEL Reading.
+	* do my best trying no matter what.
+
+* How to set the iphone enviroment for academic research?TODO
+	* Mathematical skill developing app,spending leisure time in school bus.
+	* 
 
 [math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 
