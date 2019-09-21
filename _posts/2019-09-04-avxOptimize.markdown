@@ -6,7 +6,7 @@ categories: tech
 ---
 
 
-## How to do AVX optimization for cryptographic algorithms?Thorough knowledge about this.
+## How to do AVX optimization for cryptographic algorithms? Through knowledge about this.
 
 * AVX Implementation vs General Implementation on FrodoKEM
 	* Performance comparison (**normal** vs **avx optimized** )
@@ -19,10 +19,14 @@ categories: tech
 	* sha3 hash function is implemented x4 version.So Firstly just use it.
 	* 
 
-
-
 ## Questions needed to be answered before work
 
 * What's the scoring standard for the signature algorithm?
-* Do we use hash3 cryptographic funciton?
-* 
+* Do we use hash3 cryptographic funciton?Yes,optimze it
+* NTT optimization
+
+value return error issue TODO
+another exeption you can't use *(ret+1) format TODO
+
+
+

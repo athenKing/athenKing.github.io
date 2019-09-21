@@ -1,0 +1,39 @@
+---
+layout: post
+title: PSU-CA
+date: 2019-09-18 16:02:58 +0800
+categories: academic
+---
+
+
+##  The 1st paper experience (The total idea being proven to be infeasible)
+
+cost of permutation-based protocol (interesting work, but not that related to the paper)
+
+the general computing protocol: gmw, yao's garbled circuit (not that related to the paper)
+
+
+the traditional public-key protocol [this should be proposed]
+
+the security proof is the same as approximating private set union ...
+
+experimental implementation [Optionally for now]
+
+multiparty cases under this basic protocol
+
+assume that the hash functions behave like independent random functions 
+
+
+more formal problem description and property description 
+
+unlinkability
+
+
+
+some protocol extension: using jointness disjointness testing
+
+
+
+some potential interface, how to measure hamming distance securely?
+
+

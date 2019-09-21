@@ -87,6 +87,11 @@ categories: tech
 	* Mathematical skill developing app,spending leisure time in school bus.
 	* 
 
+
+* Try testing Flajolet-Martin (FM) Sketches program to prove its correctness.<i class="fas fa-check" style="color:#30fc03"></i>
+
+* Property of permutation group
+
 [math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
 
 [OCR link]: https://www.onlineocr.net/

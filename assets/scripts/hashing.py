@@ -28,8 +28,9 @@ print("mmh3 using: ",t2-t1)
 
 
 print( md5(file) )
+print( len(md5(file)) )
 t3 = time.time()
-print("mmh3 using: ",t3-t2)
+print("md5 using: ",t3-t2)
 
 print((t3-t2)/(t2-t1))
 
