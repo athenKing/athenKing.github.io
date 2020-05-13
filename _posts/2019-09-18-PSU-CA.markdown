@@ -17,23 +17,36 @@ the traditional public-key protocol [this should be proposed]
 
 the security proof is the same as approximating private set union ...
 
+
+
 experimental implementation [Optionally for now]
 
 multiparty cases under this basic protocol
 
 assume that the hash functions behave like independent random functions 
 
-
 more formal problem description and property description 
 
 unlinkability
 
-
-
 some protocol extension: using jointness disjointness testing
-
-
 
 some potential interface, how to measure hamming distance securely?
 
 
+
+{a,b,c,d,e}
++
+{b,c,f,g,h}
+||
+=
+
+
+OT1: using OT to transfer 
+
+using OT Compressing technology to imporve public-key comparision...
+
+00001111100111 xor r1
+10110100010101 obliviously use r1 get result,
+
+<!-- how to hide every bit of the  -->

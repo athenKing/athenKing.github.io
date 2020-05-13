@@ -1,5 +1,6 @@
 # import random
 
+## The Flajolet Martin counting technique
 import hashlib
 
 # numCount = 1000000

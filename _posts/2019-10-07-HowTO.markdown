@@ -1,0 +1,23 @@
+---
+layout: post
+title: HowTO
+date: 2019-10-07 21:47:23 +0800
+categories: tech
+---
+
+
+## How to read hard-core English writting materials?
+
+* Read one article repeatedly until you are quite familiar with that
+
+
+
+## Why learning mathematical concepts process are hard for me?
+
+* A bunch of time searching adequate materials
+
+* Usually, I want to find how it's derived, but they are also introduced in core definition and conversion etc.Not covering my concern.
+
+
+
+

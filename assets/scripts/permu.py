@@ -78,6 +78,7 @@ def permuList(array,p):
 
 
 ##this uses massive space storaging duplicate elements
+##Simple implementation, but high space consumption
 def iteratelyGenPermu(length):
 	if length < 2:
 		return [[length]]
@@ -91,7 +92,7 @@ def iteratelyGenPermu(length):
 				full.append(newPre)
 		return full
 
-# iteratelyGenPermu(11)
+#iteratelyGenPermu(11)
 
 #using lexicographic approach to achieve permutation one by one
 #low space complexity,high timing complexity
@@ -123,7 +124,20 @@ def genPermuOneByOne(length,order):
 	return cur
 
 # genPermuOneByOne(10,math.factorial(10)-1)
-genPermuOneByOne(4,23)
+# genPermuOneByOne(4,23)
+
+# origi = [3,2,1]
+origi = [2,3,4,1]
+next_ = origi.copy()
+for i in range(24):
+	print(next_)
+	next_ = addPermutation(next_,origi)
+
+
+
+
+
+
 
 
 
