@@ -118,6 +118,3 @@ Additionally only final hashing results is added compared with original PQET.
 [^3]:Kolesnikov, Vladimir, et al. "Efficient batched oblivious PRF with applications to private set intersection." Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. ACM, 2016
 
 [^4]: Pinkas, Benny, et al. "SpOT-Light: Lightweight Private Set Intersection from Sparse OT Extension." (2019).
- 
-
-

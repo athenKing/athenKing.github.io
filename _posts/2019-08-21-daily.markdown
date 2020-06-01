@@ -5,15 +5,11 @@ date: 2019-08-21 14:37:05 +0800
 categories: academic
 ---
 
-----
 
-<!-- ## On this page -->
-<!-- {:.no_toc} -->
 
 - TOC
 {:toc}
 
-----
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">

@@ -6,11 +6,6 @@ categories: tech
 ---
 
 
-## Firstly set server login password
-
-This was done in the user center panel
-
-
 ## Buy the domain name lets-do-it.online
 
 
@@ -42,7 +37,6 @@ by setting phase,set root password to be root123
 
 
 **Before running gogs successfully,firstly we create a new database**
-
 
 
 ## after setting up the gogs, we need to install nginx to proxypass port 80 to 3000 like this
