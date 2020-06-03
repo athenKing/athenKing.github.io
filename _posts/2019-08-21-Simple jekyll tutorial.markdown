@@ -1,9 +1,31 @@
 ---
 layout: post
-title: daily
+title: jekyll tutorial
 date: 2019-08-21 14:37:05 +0800
-categories: academic
+categories: Engineering-Pieces 
 ---
+
+
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
 
 
 
@@ -102,6 +124,44 @@ $$
 > Give whoever gives
 >
 > Grab whoever grabs
+
+
+```
+echo "PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH" > ~/.bash_profile
+```
+
+
+<head> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js"></script> 
+</head> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+## TODO
+
+* Find markdown check, wrong icon <i class="fas fa-check" style="color:#30fc03"></i>
+	* fontawesome
+	* google rgb color panel
+
+
+* Thoroughly knowledge about using wildcards
+	* Star wildcard(\*): arbitrary character with arbitrary length
+	* question wildcard(?): one single arbitrary character
+	* a pair of square brackets([a-f],[xyz]): represents a range or one of them
+
+* The password management project
+
+
+[math_latex link]: https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
+
+
+
 
 
 [^1]: And here is the definition.

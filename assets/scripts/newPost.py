@@ -8,11 +8,11 @@ now = datetime.now()
 
 customName = now.strftime("%Y-%m-%d-")
 
-customName += sys.argv[1]+".markdown"
+customName += sys.argv[1]+".md"
 
-src = os.getcwd()+"/template.markdown"
+src = os.getcwd()+"/template.md"
 
-des = os.getcwd()+"/_posts/"+customName
+des = os.getcwd()+"/athenKing.github.io/_posts/"+customName
 
 shutil.copy(src,des)
 

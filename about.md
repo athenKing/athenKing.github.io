@@ -1,5 +1,5 @@
   ---
-la  yout: page  
+layout: page  
 title: About  
 permalink: /about/
 ---

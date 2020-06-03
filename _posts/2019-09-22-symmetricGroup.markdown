@@ -1,8 +1,8 @@
 ---
 layout: post
-title: symmetricGroup
+title: Symmetric Group
 date: 2019-09-22 15:21:49 +0800
-categories: academic
+categories: Mathematics
 ---
 
 <script type="text/javascript" async

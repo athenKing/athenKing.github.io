@@ -1,8 +1,8 @@
 ---
 layout: post
-title: aliServerInstallation
+title: How to set a gogs server on a remote server?
 date: 2019-10-09 19:29:35 +0800
-categories: tech
+categories: Engineering-Pieces
 ---
 
 
