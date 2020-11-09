@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://athenking.github.io/sitemap.xml
